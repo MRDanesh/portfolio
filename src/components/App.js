@@ -5,6 +5,7 @@ import Main from './screens/Main';
 import Header from './Header';
 import AcademicProjects from './screens/AcademicProjects';
 import WebProjects from './screens/WebProjects';
+import Footer from './Footer';
 
 const App = () => {
     return (
@@ -16,6 +17,7 @@ const App = () => {
                     <Route path = '/portfolio/projects/scientific' exact component={AcademicProjects} />
                     <Route path = '/portfolio/projects/web' exact component={WebProjects} />
                 </>
+                <Footer/>
             </BrowserRouter>
         </>
     );

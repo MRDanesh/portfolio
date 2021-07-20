@@ -183,10 +183,11 @@
             text-align: center;
             color: black;
             font-size: 260%;
-            font-weight: bold;
-            padding-top: 8rem;
+            font-weight: 500;
+            margin-bottom: 5rem;
         }   
-        height: 20rem;
+        
+        
 
         background-color: white;
     }
@@ -194,16 +195,16 @@
         margin: 2% 10%;
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        
         gap: 15px;
         position: relative;
+        align-items: center;
     }
 
     &__item{
-        
-        width: 30rem;
-        margin: 0 5%;
         background-color: #f7f5f5;
-
+        cursor: pointer;
+        transition: transform 0.25s;
         &__header{
             display: flex;
             justify-content: space-between;
@@ -227,6 +228,7 @@
             margin: 1rem 2rem;
             //color: #38d1cf;
             color: #545865;
+            transition: color 0.25s;
         }
 
         &__description{
@@ -245,7 +247,31 @@
             & p{
                 margin-left: 1.5rem;
             }
-        }
-            
+        } 
+    }
+    &__item:hover{
+        transform: translateY(-1rem);
+    }
+
+    &__item:hover &__item__title {
+        color: #11dfdb;
+    }
+}
+
+
+
+
+////////////////////////////
+// Footer
+
+.footer{
+    background-color: var(--primary-color);
+    height: 15rem;
+    text-align: center;
+    font-size: 130%;
+    color: white;
+
+    & p{
+        padding-top: 12rem;
     }
 }
