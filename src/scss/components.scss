@@ -2,12 +2,12 @@
 // HEADER SCREEN
 
 .header{
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     font-weight: 200;
     margin: 2rem 10rem 10rem 10rem;
     display: flex;
+    align-items: flex-start;
     justify-content: space-between;
-    align-items: center;
     position: relative;
     
     
@@ -21,30 +21,21 @@
             text-decoration: none;
             cursor: pointer;
             transition: font-weight 0.1s;
+            color: #ccd6f6;
         }
 
         &__item:hover{
+            color: var(--primary-color2);
             font-weight: 400;
         }
 
         &__item:visited{
-            color: black;
+            color: #ccd6f6;
         }
-        .contact{
-            font-weight: 400;
-            border: 2px solid var(--primary-color);
-            border-radius: 20px;
-            background-color: #fff;
-            color: var(--primary-color);
-            transition: background-color 0.25s, color 0.25s;
+        &__item:visited:hover{
+            color: var(--primary-color2);
         }
-        .contact:visited{
-            color: var(--primary-color);
-        }
-        .contact:hover{
-            color: white;
-            background-color: var(--primary-color);
-        }
+        
     }
 
     .dropdown{
@@ -52,6 +43,7 @@
         flex-direction: column;
         align-items: flex-end;
         justify-content: space-around;
+        color: #ccd6f6;
 
         .hidden{
             opacity: 0;
@@ -112,12 +104,14 @@
         font-size: 4rem;
         font-weight: 700;
         margin-bottom: 2rem;
+        color: #ccd6f6;
     }
 
     &__description{
         font-size: 2rem;
         font-weight: 250;
         margin-bottom: 6rem;
+        color: #8892b0;
     }
 
     &__avatar{
@@ -133,36 +127,48 @@
 
         &__container{
             margin: 3rem 3rem 6rem 4rem ;
-            padding: 0.8rem;
-            background-color: #fff;
+            padding: 1em;
             border-radius: 40%;
             transition: background-color 0.25s;
         }
         &__container:hover{
-            background-color: #bdbdbd;
+            color: black;
         }
 
         &__img{
-            height: 2.5rem;
-            width: 2.5rem;    
+            height: 3.5rem;
+            width: 3.5rem;    
+            color: #ccd6f6;
+            transition: transform 0.25s, color 0.25s;
         }
-        .scholar{
-            height: 2.75rem;
-            width: 2.75rem;
+        &__container:hover &__img{
+            color: var(--primary-color2);
+            transform: translateY(-3px);
+
         }
+        &__container:hover  &__scholar{
+            fill:var(--primary-color2);
+            transform: translateY(-3px);
+
+        }
+        &__scholar{
+            height: 4rem;
+            width: 4rem;
+            fill: #ccd6f6;
+        }
+        
     }
 
     &__about{
         text-align: center;
-        background-color: var(--primary-color);
         
         width: 100vw;
         color: #fff;
         &__title{
-            padding-top: 15rem;
             font-size: 3rem;
             font-weight: 600;
             margin-bottom: 2rem;
+            color: var(--primary-color2);
         }
         &__description{
             font-size: 1.8rem;
@@ -170,6 +176,8 @@
             margin: 0 auto;
             width: 50rem;
             padding-bottom: 15rem;
+            color: #ccd6f6;
+            text-align: justify;
             
         }
     }
@@ -181,15 +189,13 @@
     .navbar{
         &__title{    
             text-align: center;
-            color: black;
-            font-size: 260%;
-            font-weight: 500;
+            font-size: 3.5rem;
+            font-weight: 800;
             margin-bottom: 5rem;
+            color: #ccd6f6;
         }   
         
         
-
-        background-color: white;
     }
     &__grid{
         margin: 2% 10%;
@@ -202,7 +208,7 @@
     }
 
     &__item{
-        background-color: #f7f5f5;
+        background-color: #112240;
         cursor: pointer;
         transition: transform 0.25s;
         &__header{
@@ -210,9 +216,10 @@
             justify-content: space-between;
             align-items: center;
             &__github{
-                height: 2rem;
-                width: 2rem;
-                margin: 1rem 2rem;
+                height: 3rem;
+                width: 3rem;
+                margin: 0rem 0rem;
+                color: #ccd6f6;
             }
             &__folder{
                 height: 3.5rem;
@@ -227,7 +234,7 @@
             font-weight: 800;
             margin: 1rem 2rem;
             //color: #38d1cf;
-            color: #545865;
+            color: #fff;
             transition: color 0.25s;
         }
 
@@ -235,17 +242,18 @@
             font-size: 140%;
             font-weight: 600;
             margin: 1rem 2rem;
-            color: #8892b0;
+            color: #ccd6f6;
         }
 
         &__keywords{
             display: flex;
-            color: #8892b0;
+            color: #ccd6f6;
             font-size: 120%;
             font-weight: 300;
             font-style: italic;
             & p{
                 margin-left: 1.5rem;
+                margin-bottom: 1rem;
             }
         } 
     }
@@ -254,7 +262,7 @@
     }
 
     &__item:hover &__item__title {
-        color: #11dfdb;
+        color: var(--primary-color2);
     }
 }
 
@@ -266,12 +274,20 @@
 
 .footer{
     background-color: var(--primary-color);
-    height: 15rem;
+    height: 8rem;
     text-align: center;
     font-size: 130%;
     color: white;
+    opacity: 0.5;
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    
 
     & p{
-        padding-top: 12rem;
+        padding-top: 5rem;
     }
 }

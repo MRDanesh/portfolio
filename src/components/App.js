@@ -17,7 +17,6 @@ const App = () => {
                     <Route path = '/portfolio/projects/scientific' exact component={AcademicProjects} />
                     <Route path = '/portfolio/projects/web' exact component={WebProjects} />
                 </>
-                <Footer/>
             </BrowserRouter>
         </>
     );

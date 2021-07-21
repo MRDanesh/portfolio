@@ -40,7 +40,7 @@ const Header = () => {
                 <Link to='/portfolio/resume' className='header__options__item'>
                     Resume
                 </Link>
-                <Link to='/portfolio/contact' className='header__options__item contact'>
+                <Link to='/portfolio/contact' className='header__options__item'>
                     Contact Me
                 </Link>
             </div>
