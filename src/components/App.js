@@ -6,6 +6,8 @@ import Header from './Header';
 import AcademicProjects from './screens/AcademicProjects';
 import WebProjects from './screens/WebProjects';
 import Footer from './Footer';
+import history from '../history';
+import Research from './screens/Research';
 
 const App = () => {
     return (
@@ -14,6 +16,7 @@ const App = () => {
                 <Header/>
                 <>
                     <Route path = '/portfolio/' exact component={Main} />
+                    <Route path = '/portfolio/research' exact component={Research} />
                     <Route path = '/portfolio/projects/scientific' exact component={AcademicProjects} />
                     <Route path = '/portfolio/projects/web' exact component={WebProjects} />
                 </>
