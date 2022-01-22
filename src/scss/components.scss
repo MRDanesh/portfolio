@@ -59,7 +59,7 @@
             list-style: none;
             position: absolute;
             top: 5rem;
-            right:19rem;
+            right:8.5rem;
             background-color: #dfdfdf;
             border-radius: 5px;
             opacity: 1;
@@ -105,6 +105,7 @@
         font-weight: 700;
         margin-bottom: 2rem;
         color: #ccd6f6;
+        //color: var(--primary-color2);
     }
 
     &__description{
@@ -174,7 +175,7 @@
             font-size: 1.8rem;
             font-weight: 200;
             margin: 0 auto;
-            width: 50rem;
+            width: 70rem;
             padding-bottom: 15rem;
             color: #ccd6f6;
             text-align: justify;
@@ -282,7 +283,6 @@
 
     &__overview{
         display: flex;
-        justify-content: center;
         align-items: center;
         margin-bottom: 10rem;
 
@@ -303,10 +303,23 @@
     &__project{
         color: #ccd6f6;
         font-size: 25px;
-
-        &__fig{
-            width: 50rem;
+        &__detail{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 3rem auto;
+            &__description{
+                color: #8892b0;
+                text-align: justify;
+                font-size: 20px;
+                width: 50rem;
+            }
+            &__fig{
+                margin-left: 3rem;
+                width: 50rem;
+            }
         }
+        
     }
 }
 

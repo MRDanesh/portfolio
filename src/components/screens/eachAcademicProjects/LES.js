@@ -1,12 +1,11 @@
 import React from 'react';
 
-import FirstCFD from './eachAcademicProjects/FirstCFD';
-import LES from './eachAcademicProjects/LES';
+import github from '../../images/SVG/github.svg';
+import folder from '../../images/SVG/folder.svg';
 
-import github from '../images/SVG/github.svg';
-import folder from '../images/SVG/folder.svg';
 
-const projectItem = () => {
+
+const FirstCFD = () => {
     return (
         <div className='projects__item'>
             <div className='projects__item__header'>
@@ -34,11 +33,10 @@ const projectItem = () => {
                 
             </div>
             <div className='projects__item__title'>
-            Coding Annular Flow of a Newtonian Fluid by Finite Volume Method
+            Coding ”A Priory” and ”A Posteriori” Tests Using Dynamic Smagorinsky, and Wong LES Models and Solving Filtered Burgers’ equation by Finite Difference Method.
             </div>
             <div className='projects__item__description'>
                 As the final project of Advanced CFD course, I discretized navier stokes equations in the cylindrical cordinates, by Finite Volume Method.
-                I used SIMPLE algorithem to couple pressure and velocity. The codes are written in MATLAB. You can download them in my Github page.
                 
             </div>
             <div className='projects__item__keywords'>
@@ -49,22 +47,7 @@ const projectItem = () => {
                 
         </div>
     );
-}
+};
+export default FirstCFD;
 
-
-const AcademicProjects = () => {
-    return (
-        <div className='projects'>
-            <div className='navbar'>
-                <p className='navbar__title'>Academic Projects</p>
-            </div>
-            <div className='projects__grid'>
-                {FirstCFD()}
-                {LES()}
-            </div>
-            
-        </div>
-    )
-}
-
-export default AcademicProjects;
+ 

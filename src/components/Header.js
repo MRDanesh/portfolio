@@ -22,6 +22,7 @@ const Header = () => {
         //};
     },[]);
 
+
     return (
         <div className='header'>
             <Link to='/portfolio' className='header__options__item'>
@@ -37,9 +38,7 @@ const Header = () => {
                         <Link className='dropdown__options__item' to='/projects/projects/web' onClick={() => setOpen(false)} >Web Projects</Link>
                     </div>
                 </div>
-                <Link to='/portfolio/research' className='header__options__item'>
-                    Research
-                </Link>
+                
                 <Link to='/portfolio/resume' className='header__options__item'>
                     Resume
                 </Link>

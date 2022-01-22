@@ -12,11 +12,11 @@ const Main = () => {
                 Mohammad Reza Daneshvar Garmroodi
             </div>
             <div className='main__description'>
-                Graduate Research Assistant, PhD Candidate
+                PhD Candidate, Concordia University
             </div>
             <img className='main__avatar' src={profilePic} />
             <div className='main__links'>
-                <a className='main__links__container' href='https://google.com'>
+                <a className='main__links__container' href='https://scholar.google.com/citations?user=QiQqIuAAAAAJ&hl=en'>
                     <svg 
                         fill="#000000" 
                         xmlns="http://www.w3.org/2000/svg"  
@@ -29,7 +29,7 @@ const Main = () => {
                     </svg>
                 </a>
                 
-                <a className='main__links__container' href='https://github.com'>
+                <a className='main__links__container' href='https://github.com/MRDanesh'>
                     <svg 
                         className='main__links__img' 
                         xmlns="http://www.w3.org/2000/svg" 
@@ -49,7 +49,7 @@ const Main = () => {
                 </a>
                 
 
-                <Link className='main__links__container' to='/portfolio/#'>
+                <a className='main__links__container' href='https://www.linkedin.com/in/mohammad-reza-daneshvar-garmroodi-70224214b/'>
                     <svg 
                         className='main__links__img'
                         xmlns="http://www.w3.org/2000/svg" 
@@ -66,9 +66,9 @@ const Main = () => {
                         <rect x="2" y="9" width="4" height="12"></rect>
                         <circle cx="4" cy="4" r="2"></circle>
                     </svg>
-                </Link>
+                </a>
 
-                <Link className='main__links__container' to='/portfolio/#'>
+                <a className='main__links__container' href='https://twitter.com/m_r_danesh'>
                     <svg 
                         xmlns="http://www.w3.org/2000/svg" 
                         role="img" 
@@ -83,15 +83,15 @@ const Main = () => {
                         <title>Twitter</title>
                         <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
                     </svg>
-                </Link>
+                </a>
             </div>
             
             <div className='main__about'>
-                <div className='main__about__title'>
+                {/*<div className='main__about__title'>
                     Hi, I'm Mohammad Reza. Nice to meet you here!
-                </div>
+            </div>*/}
                 <div className='main__about__description'>
-                I am a third-year PhD student in Mechanical Engineering at Concordia University.
+                I am a PhD Candidate at the Department of Mechanical Engineering at Concordia University. I
                 </div>
             </div>
         </div>
