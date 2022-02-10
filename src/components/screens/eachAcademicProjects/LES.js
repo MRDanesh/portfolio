@@ -36,7 +36,7 @@ const FirstCFD = () => {
             Coding ”A Priory” and ”A Posteriori” Tests Using Dynamic Smagorinsky, and Wong LES Models and Solving Filtered Burgers’ equation by Finite Difference Method.
             </div>
             <div className='projects__item__description'>
-                As the final project of Advanced CFD course, I discretized navier stokes equations in the cylindrical cordinates, by Finite Volume Method.
+                As the final project of LES course, I solved filtered Burgers’ eqution using dynamic LES models in a periodic domain. I used 4th order Runge-Kutta to advance in time by the finite difference method.
                 
             </div>
             <div className='projects__item__keywords'>
