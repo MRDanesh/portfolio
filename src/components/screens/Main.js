@@ -91,7 +91,18 @@ const Main = () => {
                     Hi, I'm Mohammad Reza. Nice to meet you here!
             </div>*/}
                 <div className='main__about__description'>
-                I am a PhD Candidate at the Department of Mechanical Engineering at Concordia University. I
+                I am a PhD Candidate in Mechanical Engineering at Concordia University. I am currently working towards my doctoral degree in Fluid Mechanics. 
+                My research tries to understand the physics of chaotic mixing of two miscible fluids by computational simulation and analytical models. 
+                I use OpenFOAM for simulating the mixing process, and for post-processing the data, I use MATLAB and Python.
+                <div className= 'space'></div>
+                Apart from my PhD studies, I enjoy teaching. I was the teaching assistant of several courses, including Non-Newtonian Fluid Mechanics, 
+                Continuum Mechanics, Ordinary Differencial Equations, Fluid Mechanics, and Heat Transfer.  
+                <div className='space'></div>
+                In my free time, I enjoy codding in web development. I use React for the front-end, and Express, MongoDB, and Node.js for the back-end.
+                This portfolio and its design are written by myself in React. Feel free to use it if you like it!
+                I also study French, which is a beautiful language in my opinion.
+                <div className='space'></div>
+                Feel free to email me if you like to collaborate on a project.
                 </div>
             </div>
         </div>

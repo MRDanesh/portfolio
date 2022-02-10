@@ -1,13 +1,11 @@
 import React from 'react';
 
-import FirstCFD from './eachAcademicProjects/FirstCFD';
-import SecondCFD from './eachAcademicProjects/SecondCFD';
-import LES from './eachAcademicProjects/LES';
+import github from '../../images/SVG/github.svg';
+import folder from '../../images/SVG/folder.svg';
 
-import github from '../images/SVG/github.svg';
-import folder from '../images/SVG/folder.svg';
 
-const projectItem = () => {
+
+const SecondCFD = () => {
     return (
         <div className='projects__item'>
             <div className='projects__item__header'>
@@ -35,38 +33,22 @@ const projectItem = () => {
                 
             </div>
             <div className='projects__item__title'>
-            Coding Annular Flow of a Newtonian Fluid by Finite Volume Method
+            Coding Mixed Convection of a Newtonian Fluid in a Lid-Driven Cavity by Finite Difference Method
             </div>
             <div className='projects__item__description'>
-                As the final project of Advanced CFD course, I discretized navier stokes equations in the cylindrical cordinates, by Finite Volume Method.
-                I used SIMPLE algorithem to couple pressure and velocity. The codes are written in MATLAB. You can download them in my Github page.
+                As the first project of Advanced CFD course, I discretized navier stokes equations in the cartesian cordinates, by Finite Difference Method.
+                I used stream function equations for solving velocity. The codes are written in MATLAB. You can download them in my Github page.
                 
             </div>
             <div className='projects__item__keywords'>
                 <p>Advanced CFD</p>
-                <p>FVM</p>
+                <p>FDM</p>
                 <p>MATLAB</p>
             </div>
                 
         </div>
     );
-}
+};
+export default SecondCFD;
 
-
-const AcademicProjects = () => {
-    return (
-        <div className='projects'>
-            <div className='navbar'>
-                <p className='navbar__title'>Academic Projects</p>
-            </div>
-            <div className='projects__grid'>
-                {FirstCFD()}
-                {LES()}
-                {SecondCFD()}
-            </div>
-            
-        </div>
-    )
-}
-
-export default AcademicProjects;
+ 

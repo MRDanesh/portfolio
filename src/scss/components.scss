@@ -1,4 +1,9 @@
 //////////////////
+
+.space{
+    padding-top: 2rem;
+}
+
 // HEADER SCREEN
 
 .header{
@@ -209,6 +214,7 @@
     }
 
     &__item{
+        height: 38rem;
         background-color: #112240;
         cursor: pointer;
         transition: transform 0.25s;
