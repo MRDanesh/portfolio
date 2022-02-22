@@ -98,8 +98,8 @@ const Main = () => {
                 Apart from my PhD studies, I enjoy teaching. I was the teaching assistant of several courses, including Non-Newtonian Fluid Mechanics, 
                 Continuum Mechanics, Ordinary Differential Equations, Fluid Mechanics, and Heat Transfer.  
                 <div className='space'></div>
-                In my free time, I enjoy codding. Besides coding for computational fluid dynamics, I have experience with React, CSS, Redux, Node, Express, and MongoDB
-                in web development. This portfolio and its design are written by myself in React. Feel free to use it if you like it! 
+                In my free time, I enjoy codding. Besides coding in computational fluid dynamics, I have experience with React, CSS, Redux, Node, Express, and MongoDB
+                in web development. This portfolio and its design are written by myself in React. Feel free to use if you like it! 
                 <div className='space'></div>
                 I also love studying French, which is a beautiful language in my opinion.
                 
