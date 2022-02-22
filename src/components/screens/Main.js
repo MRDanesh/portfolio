@@ -96,13 +96,13 @@ const Main = () => {
                 I use OpenFOAM for simulating the mixing process, and for post-processing the data, I use MATLAB and Python.
                 <div className= 'space'></div>
                 Apart from my PhD studies, I enjoy teaching. I was the teaching assistant of several courses, including Non-Newtonian Fluid Mechanics, 
-                Continuum Mechanics, Ordinary Differencial Equations, Fluid Mechanics, and Heat Transfer.  
+                Continuum Mechanics, Ordinary Differential Equations, Fluid Mechanics, and Heat Transfer.  
                 <div className='space'></div>
-                In my free time, I enjoy codding in web development. I use React for the front-end, and Express, MongoDB, and Node.js for the back-end.
-                This portfolio and its design are written by myself in React. Feel free to use it if you like it!
-                I also study French, which is a beautiful language in my opinion.
+                In my free time, I enjoy codding. Besides coding for computational fluid dynamics, I have experience with React, CSS, Redux, Node, Express, and MongoDB
+                in web development. This portfolio and its design are written by myself in React. Feel free to use it if you like it! 
                 <div className='space'></div>
-                Feel free to email me if you like to collaborate on a project.
+                I also love studying French, which is a beautiful language in my opinion.
+                
                 </div>
             </div>
         </div>
