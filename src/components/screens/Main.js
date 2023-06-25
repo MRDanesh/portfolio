@@ -91,17 +91,18 @@ const Main = () => {
                     Hi, I'm Mohammad Reza. Nice to meet you here!
             </div>*/}
                 <div className='main__about__description'>
-                I am a PhD Candidate in Mechanical Engineering at Concordia University. I am currently working towards my doctoral degree in Fluid Mechanics. 
-                My research tries to understand the physics of chaotic mixing of two miscible fluids by computational simulation and analytical models. 
-                I use OpenFOAM for simulating the mixing process, and for post-processing the data, I use MATLAB and Python.
+                Hi! I'm Mohammad Reza, an inquisitive PhD candidate in Mechanical Engineering at Concordia University. 
+                I specialize in Fluid Mechanics, and my research focuses on understanding the fascinating physics of
+                chaotic mixing through computational simulations and analytical models. 
+                I'm also passionate about teaching and have been a teaching assistant for courses like Advanced calculus,
+                ordinary differential equations, non-Newtonian fluid mechanics,  and heat transfer.
                 <div className= 'space'></div>
-                Apart from my PhD studies, I enjoy teaching. I was the teaching assistant of several courses, including Non-Newtonian Fluid Mechanics, 
-                Continuum Mechanics, Ordinary Differential Equations, Fluid Mechanics, and Heat Transfer.  
+                Outside of academia, you'll often find me enjoying calisthenics and staying active at the Concordia gym. 
+                I also have a knack for coding, particularly in web development using  React, Redux, and CSS. 
+                I even built this website using React, so feel free to use it!
                 <div className='space'></div>
-                In my free time, I enjoy codding. Besides coding in computational fluid dynamics, I have experience with React, CSS, Redux, Node, Express, and MongoDB
-                in web development. This portfolio and its design are written by myself in React. Feel free to use if you like it! 
-                <div className='space'></div>
-                I also love studying French, which is a beautiful language in my opinion.
+                Oh, and I can't forget to mention my love for the beauty of the French language. 
+                If you're interested in learning French, I recommend you check out the Duolingo French podcasts at: https://podcast.duolingo.com/french
                 
                 </div>
             </div>
